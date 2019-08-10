@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int X,P;
+int X,P,sum=0,s;
 scanf("%d %d",&X,&P);
 s=X-(X*(P/100));
-if(s>1)
+if(s>=1)
 sum=sum+s;
+printf("%d",sum);
+return 0;
+}
