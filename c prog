@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+int X,P;
+scanf("%d %d",&X,&P);
+s=X-(X*(P/100));
+if(s>1)
+sum=sum+s;
