@@ -3,9 +3,12 @@ int main()
 {
 int X,P,sum=0,s;
 scanf("%d %d",&X,&P);
+for(i=0;i<10;i++)
+{
 s=X-(X*(P/100));
 if(s>=1)
 sum=sum+s;
+}
 printf("%d",sum);
 return 0;
 }
